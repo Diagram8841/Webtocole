@@ -26,6 +26,11 @@ h3 {
 
 }
 
+#container_CG {
+	width:700px;
+	
+}
+
 #header {
 	width: 100%;
 	height: 100px;
@@ -48,30 +53,47 @@ h3 {
 #contents {
 	width: 600px;
 	height: 560px;
+	padding-left: 10px;
+	padding-right: 10px;
 	border: 1px solid #000;
 	float: left;
 }
 
-#contents2 {
+#con_right {
 	
-	width: 290px;
+	width: 280px;
 	height: 300px;
 	border: none;
+	border-radius: 50%;
+	background-color: #DCB6EB;
+	line-height: 500px;
 	float: left;
 }
 
-#contents4 {
+#con_left {
 	
-	width: 290px;
+	width: 280px;
 	height: 300px;
 	border: none;
+	border-radius: 50%;
+	background-color: #DCB6EB;
+	line-height: 500px;
+	float: right;
+}
+
+#pt_con_right {
+	width: 350px;
+	border-width: thick thin thick thick;
 	float: right;
 }
 
 
-#contents3 {
+#bottom {
 	width: 600px;
 	height: 260px;
 	border: none;
+	border-radius: 50%;
+	background-color: #DCB6EB;
+	line-height: 500px;
 	float: left;
 }
