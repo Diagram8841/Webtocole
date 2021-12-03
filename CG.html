@@ -6,6 +6,27 @@
 	<style>
 		#circle { border-radius: 50%; }
 		
+		#non_ul {
+			list-style-type: none;
+		}
+		
+		#non_ul.caption {
+			position: absolute;
+			opacity: 0;
+			
+		}
+		
+		li {
+			width=500px;
+			height=1000px;
+			margin-bottom: 30px;
+			border-style: none;
+		}
+		
+		li:hover {
+			transform:scaleY(2);
+		}
+		
 	</style>
 </head>
 <body>
@@ -14,10 +35,12 @@
 			<h1>컴퓨터 플렛폼</h1>
 		</header>
 		<aside id="pt_con_left">
-			<img src="image/overwatch_logo.png" width=50%>
-				<h1>오버워치<h1>
-			<img src="image/battleground_logo.png" width=140%>
-				<h1>배틀그라운드</h1>
+			<ul class="#non_ul">
+				<li><img src="image/overwatch_logo.png" width=50%><br><b>overwatch</b></li>
+				<li>battlegorund</li>
+				<li>rainbowsix</li>
+				<li></li>
+			</ul>
 		</aside>
 		<aside id="pt_con_right">
 			<h2>it</h2>

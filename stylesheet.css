@@ -73,10 +73,16 @@ h3 {
 	width: 360px;
 	height: 310px;
 	border: none;
+	border-radius: 50%;
 	background-image: url("image/computer_1.png");
 	background-size: 100% 100%;
 	line-height: 500px;
 	float: left;
+}
+
+#con_right:hover {
+	
+	background: rgba(0,0,0,0.6)
 }
 
 #con_left {
@@ -98,7 +104,7 @@ h3 {
 
 #pt_con_right {
 	width: 500px;
-	height: 1000px;
+	height: 5000px;
 	border-width: thick thin thick thick;
 	background-color: #81F7F3;
 	float: right;
@@ -106,7 +112,7 @@ h3 {
 
 #pt_con_left {
 	width: 500px;
-	height: 1000px;
+	height: 5000px;
 	padding-top: 60px;
 	border-width: thick thin thick thick;
 	background-color: #BCF5A9;
@@ -120,8 +126,13 @@ h3 {
 	height: 280px;
 	border: none;
 	margin: 100px 220px 0px;
+	border-radius: 50%;
 	background-image: url("image/computer_1.png");
 	background-size: 100% 100%;
-	line-height: 340px;
+	line-height: 420px;
 	float: left;
+}
+
+#bottom:hover {
+	background: rgba(0,0,0,0.6)
 }
